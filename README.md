@@ -79,8 +79,9 @@ block-style cursors, so your configuration would typically look like:
 ```
 
 If this is enabled, Dance will internally treat selections as inclusive ranges
-between two characters and imply that each selection contains at least one
-character.
+between two characters and imply that each selection contains at least one 
+character. If you'd like to customize the line appearance in Normal or Insert 
+mode, refer to the [API for text editor decorations](https://github.com/microsoft/vscode/blob/284ace0bb6f566239a7d4760d8ea4674c05a92ed/src/vs/vscode.d.ts#L832)
 
 ### Scripting
 
